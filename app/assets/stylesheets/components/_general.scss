@@ -18,9 +18,9 @@ h1 {
 }
   
 h2 {
-  color: #7ECE90;
+  color: #6a197d;
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: bolder;
   font-weight: 500;
 }
   
@@ -59,4 +59,8 @@ a:hover {
 /* Design adjustments using id (1% design remaining) */
 #introduction p {
   margin-bottom: 40px;
+}
+
+#intro {
+  text-align: left;
 }

@@ -1,0 +1,17 @@
+.badge-skill {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+  
+.badge-skill:hover {
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  content: attr(title);
+  display: inline-block;
+  left: 0px;
+  top: 0px;
+  padding: 5px;
+  background-color: #e0dede;
+  color: black;
+}
