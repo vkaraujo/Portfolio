@@ -33,21 +33,33 @@
 
     <div class="card-white">
       <h2>Full-fledged projects</h2>
-      <a href="https://www.algolearning.club/" target="_blank"><%= image_tag "AlgoLogo.png", class: "card-logo" %></a>
-      <a href="https://fourlegsangels-vkaraujo.herokuapp.com/" target="_blank"><%= image_tag "4LegsLogo.png", class: "card-logo" %></a>
+      <a href="https://www.algolearning.club/" target="_blank" class="project-badge"><%= image_tag "AlgoLogo.png", class: "card-logo" %></a>
+      <a href="https://fourlegsangels-vkaraujo.herokuapp.com/" target="_blank" class="project-badge"><%= image_tag "4LegsLogo.png", class: "card-logo" %></a>
     </div>
 
     <div class="card-white">
       <h2>Conceptual Projects</h2>
-      <p></p>
-      <div class="card-product">
-        <a href="https://apipalooza.herokuapp.com/" target="_blank"><%= image_tag "APIimg.png" %></a>
-        <div class="card-product-infos">
-          <h2 class="text-left">APIpalooza</h2>
-          <p> All around API usage and experimentation</p>
+      <p>Small projects just to try something out or to practice</p>
+      <a href="https://apipalooza.herokuapp.com/" target="_blank">
+        <div class="card-product">
+          <%= image_tag "APIimg.png" %>
+          <div class="card-product-infos">
+            <h2 class="text-left">APIpalooza</h2>
+            <p> APIs usage and experimentation</p>
+          </div>
         </div>
-        
-      </div>
+      </a>
+      <br>
+
+      <a href="https://rich-text-editor-summernote.herokuapp.com/" target="_blank">
+        <div class="card-product">
+          <%= image_tag "summerIcon.png" %>
+          <div class="card-product-infos">
+            <h2 class="text-left">Rich Text Editor - SummerNote gem</h2>
+            <p> Playing around and trying out how to build and use a rich text editor</p>
+          </div>
+        </div>
+      </a>
     </div>
 
     <div class="card-white">
