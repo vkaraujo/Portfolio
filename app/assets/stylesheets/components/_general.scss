@@ -1,6 +1,6 @@
 /* Colors and fonts */
 body {
-  background: #e3f6f5;
+  background: #fff6da;
   color: #575F7D;
   font-family: 'Lora', serif;
   font-size: 17px;
@@ -63,4 +63,39 @@ a:hover {
 
 #intro {
   text-align: left;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 576px) {
+  .card-white {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .card-white {
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
