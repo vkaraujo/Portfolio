@@ -2,8 +2,8 @@
   width: 100%;
   margin: 40px auto;
 }
-    
-    
+  
+  
 .card-white {
   background-color: white;
   padding: 40px;
@@ -16,7 +16,6 @@
 .card-logo:hover {
   box-shadow: 0 0 4px rgba(0,0,0,0.4);
   content: attr(title);
-  display: inline-block;
   left: 0px;
   top: 0px;
   background-color: #e0dede;
@@ -24,9 +23,11 @@
 }
 
 .card-logo {
-  width: 160px;
-  height: 100px;
+  width: 320px;
+  height: 200px;
 }
+
+
 
 .card-product {
   overflow: hidden;
@@ -69,4 +70,11 @@
 
 .card-product .card-product-infos {
   padding: 16px;
+}
+
+.card-name {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: #ffffdd;
 }
