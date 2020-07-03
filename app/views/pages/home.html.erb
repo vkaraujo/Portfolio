@@ -1,84 +1,165 @@
+<div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+        <div class="resume-section-content">
+            <h1 class="mb-0">
+                Viktor
+                <span class="text-primary">Waissmann</span>
+            </h1>
+            <div class="subheading mb-5">
+                (21) 99324-4202 ·
+                <a href="mailto:vkaraujo00@gmail.com">vkaraujo00@gmail.com</a>
+            </div>
+            <p class="lead mb-5">
+            Hello! My name is Viktor.
+            <br>
+            <br>
+            Graduated in Business Administration by PUC-Rio, I've worked as a finance analyst for several years. In 2018 I started to study coding by myself and finally in 2020 I decided to make the jump and entered Le Wagon's Web dev bootcamp, one of the best decisions in my life.
+            Now I can confidently call myself a web dev and I am eager to keep exploring this amazing universe. 
+            </p>
+            <div class="social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/viktor-waissmann-de-araujo-62928640/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://github.com/vkaraujo" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="https://api.whatsapp.com/send?phone=5521993244202&text=Olá, Viktor" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+          <h2 class="mb-1">Projects</h2>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-1">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Full-fledged projects</h3>
+              <div class="row projects">
 
-<div class="container">
-    <div class="card-white">
-      <%= image_tag "Viktor01.jpg", class: "img-circle mb-5"%>
-      
-      <p id="intro">Hello! My name is Viktor.
-        <br>
-        <br>
-        Graduated in Business Administration by PUC-Rio, I've worked as a finance analyst for several years.
-        <br>
-        <br>
-        In 2018 I started to study by myself and finally in 2020 I decided to make the jump and entered Le Wagon's Web dev bootcamp, one of the best decisions in my life.
-        Now I can confidently call myself a web dev and I am eager to keep exploring this amazing universe. 
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4 mt-sm-3 card-logo">
+                  <div class="proj-card-content">
+                    <a href="https://fourlegsangels-vkaraujo.herokuapp.com/" target="_blank"><%= image_tag "4LegsLogo.png", class: "proj-img" %></a>
+                    <div class="proj-name">
+                      <p class="mt-1 text-primary text-center">4LegsAngels</p>
+                    </div>
+                  </div>
+                </div>
 
-        In my free time I like playing Magic:The Gathering, games and drinking beer with my friends.
-      </p>
-    </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4 mt-sm-3 card-logo">
+                  <div class="proj-card-content">
+                    <a href="https://www.algolearning.club/" target="_blank"><%= image_tag "AlgoLogo2.png", class: "proj-img" %></a>
+                    <div class="proj-name">
+                      <p class="mt-1 text-primary text-center">AlgoLearning</p>
+                    </div>
+                  </div>
+                </div>
 
-    <div class="card-white">
-      <h2>Experienced with</h2>
-      <br>
-      <%= image_tag "ruby.png", class: "badge-skill", title: "Ruby" %>
-      <%= image_tag "rails.png", class: "badge-skill", title: "Rails" %>
-      <%= image_tag "html.png", class: "badge-skill", title: "HTML5" %>
-      <%= image_tag "css.png", class: "badge-skill", title: "CSS3" %>
-      <%= image_tag "sass.png", class: "badge-skill", title: "SASS" %>
-      <%= image_tag "bootstrap.png", class: "badge-skill", title: "Bootstrap" %>
-      <%= image_tag "sql.png", class: "badge-skill", title: "SQL" %>
-      <%= image_tag "postgre.png", class: "badge-skill", title: "Postgre" %>
-      <%= image_tag "github.png", class: "badge-skill", title: "GitHub" %>
-      <%= image_tag "heroku.png", class: "badge-skill", title: "Heroku" %>
-    </div>
-
-    <div class="card-white">
-      <h2>Projects</h2>
-      <a href="https://www.algolearning.club/" target="_blank" class="project-badge"><%= image_tag "AlgoLogo2.png", class: "card-logo" %></a>
-      <a href="https://fourlegsangels-vkaraujo.herokuapp.com/" target="_blank" class="project-badge"><%= image_tag "4LegsLogo.png", class: "card-logo" %></a>
-      <a href="https://vkscafofo.herokuapp.com/" target="_blank" class="project-badge"><%= image_tag "drink.png", class: "card-logo" %></a>    
-    </div>
-
-    <div class="card-white">
-      <h2>Conceptual Projects</h2>
-      <p>Small projects just to try something out or to practice</p>
-      <a href="https://apipalooza.herokuapp.com/" target="_blank">
-        <div class="card-product">
-          <%= image_tag "APIimg.png" %>
-          <div class="card-product-infos">
-            <h2 class="text-left">APIpalooza</h2>
-            <p> APIs usage and experimentation</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- minor Projects-->
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5 mt-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Conceptual Projects</h3>
+              <div class="subheading mb-3">Small projects just to try something out or to practice</div>
+              
+              <a href="https://vkscafofo.herokuapp.com/" target="_blank" class="m-1">
+                <div class="card-product">
+                  <%= image_tag "drink.png" %>
+                  <div class="card-product-infos">
+                    <h2 class="text-left">Mr.Cocktail</h2>
+                    <p> Pratice project done during bootcamp</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://apipalooza.herokuapp.com/" target="_blank" class="m-1">
+                <div class="card-product">
+                  <%= image_tag "APIimg.png" %>
+                  <div class="card-product-infos">
+                    <h2 class="text-left">APIpalooza</h2>
+                    <p> APIs usage and experimentation</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://rich-text-editor-summernote.herokuapp.com/" target="_blank" class="m-1">
+                <div class="card-product">
+                  <%= image_tag "summerIcon.png" %>
+                  <div class="card-product-infos">
+                    <h2 class="text-left">Rich Text Editor - SummerNote gem</h2>
+                    <p> Playing around how to build and use a rich text editor</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-      </a>
-      <br>
-
-      <a href="https://rich-text-editor-summernote.herokuapp.com/" target="_blank">
-        <div class="card-product">
-          <%= image_tag "summerIcon.png" %>
-          <div class="card-product-infos">
-            <h2 class="text-left">Rich Text Editor - SummerNote gem</h2>
-            <p> Playing around and trying out how to build and use a rich text editor</p>
-          </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Education-->
+    <section class="resume-section" id="education">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Education</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Le Wagon Web dev</h3>
+                    <div class="subheading mb-3">Bootcamp</div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">April 2020 - July 2020</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Pontifícia Universidade Católica - Rio de Janeiro</h3>
+                    <div class="subheading mb-3">Business Administration</div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary"> 2010 - 2017</span></div>
+            </div>
         </div>
-      </a>
-    </div>
-
-    <div class="card-white">
-      <h2>Contact me</h2>
-      <ul class="list-inline">
-        <li>
-          <a href="https://www.linkedin.com/in/viktor-waissmann-de-araujo-62928640/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/vkaraujo" target="_blank">
-            <i class="fab fa-github-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://api.whatsapp.com/send?phone=5521993244202&text=Olá, Viktor" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        </li>
-      </ul>
-    </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Skills</h2>
+            <div class="subheading mb-3">Programming Languages & Tools</div>
+            <ul class="list-inline dev-icons">
+                <li class="list-inline-item"><%= image_tag "ruby.png", class: "badge-skill", title: "Ruby" %></li>
+                <li class="list-inline-item"><%= image_tag "rails.png", class: "badge-skill", title: "Rails" %></li>
+                <li class="list-inline-item"><%= image_tag "html.png", class: "badge-skill", title: "HTML5" %></li>
+                <li class="list-inline-item"><%= image_tag "css.png", class: "badge-skill", title: "CSS3" %></li>
+                <li class="list-inline-item"><%= image_tag "sass.png", class: "badge-skill", title: "SASS" %></li>
+                <li class="list-inline-item"><%= image_tag "bootstrap.png", class: "badge-skill", title: "Bootstrap" %></li>
+                <li class="list-inline-item"><%= image_tag "sql.png", class: "badge-skill", title: "SQL" %></li>
+                <li class="list-inline-item"><%= image_tag "postgre.png", class: "badge-skill", title: "Postgre" %></li>
+                <li class="list-inline-item"><%= image_tag "github.png", class: "badge-skill", title: "GitHub" %></li>
+                <li class="list-inline-item"><%= image_tag "heroku.png", class: "badge-skill", title: "Heroku" %></li>
+            </ul>
+            <div class="subheading mb-3 mt-2">Workflow</div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Agile Development & Scrum (by IBM)
+                </li>
+            </ul>
+            <div class="subheading mb-3 mt-4">Short time objectives</div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    React
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Javascript
+                </li>
+            </ul>
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Interests-->
+    <section class="resume-section" id="interests">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Interests</h2>
+            <p>When indoors I like playing Magic:The Gathering, games and I also follow a number of sci-fi, anime and fantasy genre series</p>
+            <p class="mb-0">When I go out I like drunk karaokes, going to the beach and partying. Before the pandemic I could almost always be found at Baixo Botafogo on Friday/Saturday (and maybe Thursday) nights.</p>
+        </div>
+    </section>
+    <hr class="m-0" />
 </div>
