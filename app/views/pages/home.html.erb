@@ -32,10 +32,30 @@
           <div class="d-flex flex-column flex-md-row justify-content-between mb-1">
             <div class="flex-grow-1">
               <h3 class="mb-0">Full-fledged projects</h3>
-              <a href="https://www.algolearning.club/" target="_blank" class="project-badge"><%= image_tag "AlgoLogo2.png", class: "card-logo" %></a>
-              <a href="https://fourlegsangels-vkaraujo.herokuapp.com/" target="_blank" class="project-badge"><%= image_tag "4LegsLogo.png", class: "card-logo" %></a>                     
+              <div class="row projects">
+
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4 mt-sm-3 card-logo">
+                  <div class="proj-card-content">
+                    <a href="https://fourlegsangels-vkaraujo.herokuapp.com/" target="_blank"><%= image_tag "4LegsLogo.png", class: "proj-img" %></a>
+                    <div class="proj-name">
+                      <p class="mt-1 text-primary text-center">4LegsAngels</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4 mt-sm-3 card-logo">
+                  <div class="proj-card-content">
+                    <a href="https://www.algolearning.club/" target="_blank"><%= image_tag "AlgoLogo2.png", class: "proj-img" %></a>
+                    <div class="proj-name">
+                      <p class="mt-1 text-primary text-center">AlgoLearning</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
+          
           <!-- minor Projects-->
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5 mt-5">
             <div class="flex-grow-1">
@@ -65,11 +85,10 @@
                   <%= image_tag "summerIcon.png" %>
                   <div class="card-product-infos">
                     <h2 class="text-left">Rich Text Editor - SummerNote gem</h2>
-                    <p> Playing around and trying out how to build and use a rich text editor</p>
+                    <p> Playing around how to build and use a rich text editor</p>
                   </div>
                 </div>
               </a>
-
             </div>
           </div>
         </div>
